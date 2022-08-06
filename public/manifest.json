@@ -3,18 +3,18 @@
   "name": "Lucky yadav",
   "icons": [
     {
-      "src": "../src/images/meri_pic.jpeg",
-      "type": "image/jpeg",
+      "src": "./images/meri_pic.jpeg",
+      "type": "image/png",
       "sizes": "64x64 32x32 24x24 16x16"
     },
     {
-      "src": "../src/images/meri_pic.jpeg",
-      "type": "image/jpeg",
+      "src": "./images/meri_pic.jpeg",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/images/meri_pic.jpeg",
-      "type": "image/jpeg",
+      "src": "./imagesmeri_pic.jpeg",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],

@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 body {
-  overflow-x: hidden;
   margin: 0;
-  font-family: "Jost", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Jost", sans-serif -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,18 +13,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-body::-webkit-scrollbar,
-html::-webkit-scrollbar {
-  scrollbar-darkshadow-color: brown;
-  scrollbar-3dlight-color: rgb(166, 241, 14);
-  scrollbar-arrow-color: cadetblue;
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
-body,
-html {
+html,
+body {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
