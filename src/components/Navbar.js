@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { motion } from "framer-motion";
 import Resume from "../Resume/DURGA's Resume (2).pdf";
+import Sound from "../SoundBar/Sound";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -34,6 +35,15 @@ const Navbar = () => {
             className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
           >
             Contact
+          </a>
+          <a
+            className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+            href="mailto:luckyyadav6264@email.com"
+          >
+            Say hi..
+          </a>
+          <a className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer px-2 py-1  hover:border-gray-100 duration-100 ease-in">
+            <Sound />
           </a>
           <a
             href={Resume}
@@ -87,6 +97,15 @@ const Navbar = () => {
               onClick={() => setIsActive(false)}
             >
               Contact
+            </a>
+            <a
+              className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+              href="mailto:luckyyadav6264@email.com"
+            >
+              Say hi..
+            </a>
+            <a className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer px-2 py-1  hover:border-gray-100 duration-100 ease-in">
+              <Sound />
             </a>
             <a
               href={Resume}
