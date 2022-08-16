@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { motion } from "framer-motion";
-import Resume from "../Resume/DURGA's Resume (2).pdf";
+import Resume from "../Resume/DURGA's Resume.pdf";
 import Sound from "../SoundBar/Sound";
 
 const Navbar = () => {

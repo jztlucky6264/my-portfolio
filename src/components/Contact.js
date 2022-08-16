@@ -1,7 +1,18 @@
 import React from "react";
 import { SocialLinks } from "../Data";
 import { motion } from "framer-motion";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+  }, []);
   return (
     <>
       <section
@@ -13,6 +24,7 @@ const Contact = () => {
           {SocialLinks &&
             SocialLinks.map((n) => (
               <motion.a
+                data-aos="slide-up"
                 whileTap={{ scale: 0.8 }}
                 href={n.link}
                 key={n.id}
